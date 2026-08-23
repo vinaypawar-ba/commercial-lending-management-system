@@ -1,67 +1,65 @@
 # Commercial Lending Management System
 
-A PostgreSQL project based on a commercial lending lifecycle.
+A PostgreSQL-based project built around a commercial lending lifecycle.
 
-I built this project to explore how lending data moves from loan application
-through credit assessment, approval, disbursement and repayment.
+I built this project to work with lending data the way a Business Analyst would: starting with loan applications, looking at credit risk and approvals, and then following the portfolio through disbursement and repayment.
 
-The database contains synthetic data and is designed around 10 related tables,
-including customers, branches, loan applications, credit scores, loans,
-payments and documents.
+The data is synthetic and created for portfolio and learning purposes.
 
-## What I wanted to answer
+## Business Areas
 
-- Which applications are being approved?
-- Which branches are performing better?
-- Which loan products have higher approval rates?
-- Does credit score explain rejection?
-- How much money has been disbursed?
-- Where is overdue exposure concentrated?
-
-## Some findings
-
-The current dataset contains 50 loan applications.
-
-30 are approved, 10 are rejected and 10 are pending, giving an overall
-approval rate of 60%.
-
-The portfolio contains 20 loans with ₹11.5 crore in principal disbursed.
-
-The payment data shows an 89.13% collection rate, with ₹14 lakh classified
-as overdue.
-
-One interesting finding was that rejected applications did not have a
-dramatically lower average credit score than approved applications. This
-suggested that credit score alone was not enough to explain the decisions,
-so I looked at other factors such as loan product and branch.
+- Loan origination
+- Credit assessment
+- Approval and rejection
+- Loan portfolio exposure
+- Branch performance
+- Repayment and overdue exposure
 
 ## Database
 
-10 tables:
+The database contains related tables covering customers, branches, loan products, loan applications, credit scores, loans, payments, documents, employees and loan status history.
 
-customers
-branches
-employees
-loan_products
-loan_applications
-credit_scores
-loans
-payments
-loan_status_history
-documents
+The tables are connected through primary and foreign keys to represent a realistic lending workflow.
 
-## SQL analysis
+## Business Questions
 
-The analysis is being organized around business questions rather than
-individual SQL concepts.
+The analysis focuses on questions such as:
 
-More analysis and documentation will be added as the project develops.
+- Which applications are being approved or rejected?
+- Which branches are performing better?
+- Which loan products have stronger approval rates?
+- Is credit score related to application outcomes?
+- Where is the loan portfolio concentrated?
+- Which customers have higher outstanding exposure?
+- Where is overdue exposure concentrated?
+- How is repayment performance varying across the portfolio?
 
-## Tools
+## SQL Analysis
 
-PostgreSQL | pgAdmin | SQL | GitHub
+The `analysis` folder contains separate analysis areas:
 
-## Data
+1. **Loan Origination** — application and approval patterns
+2. **Branch Performance** — branch-level lending performance
+3. **Credit Risk** — credit score and application outcomes
+4. **Portfolio Analysis** — loan exposure and outstanding balances
+5. **Repayment Analysis** — repayment and overdue exposure
 
-All data in this repository is synthetic and created for portfolio purposes.
-No real customer or banking data is included.
+The queries use PostgreSQL features including joins, aggregations, subqueries, CTEs, conditional logic and business-focused calculations.
+
+## Project Structure
+
+```text
+commercial-lending-management-system/
+│
+├── database/
+│   └── 01_create_tables.sql
+│
+├── analysis/
+│   ├── 01_loan_origination.sql
+│   ├── 02_branch_performance.sql
+│   ├── 03_credit_risk.sql
+│   ├── 04_portfolio_analysis.sql
+│   ├── 05_repayment_analysis.sql
+│   └── README.md
+│
+└── README.md
