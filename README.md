@@ -46,6 +46,40 @@ The `analysis` folder contains separate analysis areas:
 
 The queries use PostgreSQL features including joins, aggregations, subqueries, CTEs, conditional logic and business-focused calculations.
 
+## Key Findings
+
+A few observations stood out from the analysis:
+
+### Loan Origination
+- 50 applications were analysed.
+- 30 were approved, giving an overall approval rate of 60%.
+- 10 applications were pending and 10 were rejected.
+
+### Branch Performance
+- Approval performance varied considerably across branches.
+- Delhi, Nagpur and Pune showed stronger approval performance in the sample.
+- Hyderabad and Mumbai had no approved applications in the available data.
+
+### Credit Risk
+- Approved applications had an average credit score of 691.2.
+- Pending applications averaged 659.5.
+- Rejected applications averaged 684.4.
+- This suggests that credit score alone does not explain every lending decision.
+
+### Portfolio
+- Total loan exposure analysed was ₹115M.
+- ₹55M was outstanding.
+- Exposure was distributed differently across branches and loan products.
+
+### Repayment
+- Repayment analysis was used to identify outstanding and overdue exposure.
+- Delhi had the highest overdue exposure rate among branches with active disbursement.
+- Branches with no disbursement were kept separate when interpreting overdue risk.
+
+### Business Takeaway
+
+The analysis shows that lending performance cannot be judged using one metric alone. Approval rates, credit scores, branch performance, portfolio exposure and repayment behaviour need to be considered together.
+
 ## Project Structure
 
 ```text
