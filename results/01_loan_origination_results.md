@@ -17,4 +17,16 @@ The SQL queries used for this analysis are available in:
 
 ## Results
 
-Results will be added after running the analysis in PostgreSQL.
+### Overall Application Status
+
+| Status | Application Count | Percentage |
+|---|---:|---:|
+| Approved | 30 | 60.00% |
+| Pending | 10 | 20.00% |
+| Rejected | 10 | 20.00% |
+
+### Business Insight
+
+The dataset shows that 60% of loan applications were approved, while 20% were rejected and another 20% remained pending.
+
+This provides a quick view of the overall application pipeline and approval outcome.
