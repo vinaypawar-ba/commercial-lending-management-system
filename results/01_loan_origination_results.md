@@ -30,3 +30,17 @@ The SQL queries used for this analysis are available in:
 The dataset shows that 60% of loan applications were approved, while 20% were rejected and another 20% remained pending.
 
 This provides a quick view of the overall application pipeline and approval outcome.
+
+### Applications by Loan Purpose
+
+| Loan Purpose | Application Count |
+|---|---:|
+| Equipment purchase | 10 |
+| Commercial property | 10 |
+| Working capital requirement | 10 |
+| Inventory financing | 10 |
+| Business expansion | 10 |
+
+### Business Insight
+
+Applications are evenly distributed across the five loan purposes, with 10 applications for each category.
