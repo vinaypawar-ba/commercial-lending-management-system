@@ -97,3 +97,11 @@ commercial-lending-management-system/
 │   └── README.md
 │
 └── README.md
+
+## Database Design
+
+The database is designed around the main entities involved in the commercial lending lifecycle.
+
+### Entity Relationship Diagram
+
+![Commercial Lending ERD](./erd%20diagram%20from%20postgre%20sql.png)
