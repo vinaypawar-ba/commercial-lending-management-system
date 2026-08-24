@@ -44,3 +44,15 @@ This provides a quick view of the overall application pipeline and approval outc
 ### Business Insight
 
 Applications are evenly distributed across the five loan purposes, with 10 applications for each category.
+
+### Requested Loan Amount by Application Status
+
+| Status | Applications | Average Requested Amount | Minimum Requested Amount | Maximum Requested Amount |
+|---|---:|---:|---:|---:|
+| Approved | 30 | 5,775,000.00 | 750,000.00 | 12,000,000.00 |
+| Pending | 10 | 6,375,000.00 | 750,000.00 | 12,000,000.00 |
+| Rejected | 10 | 4,550,000.00 | 750,000.00 | 8,000,000.00 |
+
+### Business Insight
+
+Pending applications have the highest average requested loan amount, while rejected applications have the lowest. Approved applications have a higher average requested amount than rejected applications.
