@@ -11,3 +11,29 @@
 Active loans have 65% of their principal amount still outstanding. Overdue loans have 45% of their principal outstanding, representing ₹7.875 million of current overdue exposure.
 
 Closed loans have 0% outstanding, indicating that their principal has been fully settled.
+
+
+# Repayment Analysis Results
+
+## Loans with Highest Outstanding Balances
+
+| Loan ID | Customer | Loan Product | Principal Amount | Outstanding Balance | Status |
+|---|---|---|---:|---:|---|
+| LN00009 | GreenField Agro Traders 15 | Commercial Property Loan | ₹12,000,000 | ₹7,800,000 | Active |
+| LN00003 | BluePeak Infrastructure 5 | Commercial Property Loan | ₹12,000,000 | ₹7,800,000 | Active |
+| LN00018 | BluePeak Infrastructure 29 | Business Expansion Loan | ₹8,000,000 | ₹5,200,000 | Active |
+| LN00006 | GreenField Agro Traders 9 | Business Expansion Loan | ₹8,000,000 | ₹5,200,000 | Active |
+| LN00012 | Apex Industrial Supplies 19 | Business Expansion Loan | ₹8,000,000 | ₹3,600,000 | Overdue |
+| LN00008 | Sunrise Engineering Works 14 | Business Expansion Loan | ₹8,000,000 | ₹3,600,000 | Overdue |
+| LN00007 | Apex Industrial Supplies 13 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+| LN00011 | Prime Auto Components 18 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+| LN00002 | GreenField Agro Traders 3 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+| LN00014 | BluePeak Infrastructure 23 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+
+### Business Insight
+
+The highest outstanding balances are concentrated in Commercial Property and Business Expansion loans.
+
+Two Commercial Property Loans have ₹7.8 million outstanding each. Two Business Expansion Loans have ₹5.2 million outstanding each, while two additional Business Expansion Loans are overdue with ₹3.6 million outstanding each.
+
+These loans represent important repayment exposures that should be monitored closely.
