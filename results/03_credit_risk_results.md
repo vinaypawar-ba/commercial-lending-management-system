@@ -58,3 +58,17 @@ Working Capital Loan has the lowest approval rate at 30% and the highest number 
 Approved applications have a slightly higher average credit score than rejected applications, at 691.20 versus 684.40.
 
 The relatively small difference suggests that credit score alone may not fully explain the approval outcome. Other factors such as loan product, requested amount, financial strength, or business risk may also influence the decision.
+
+
+## Credit Score Comparison: Approved vs Rejected
+
+| Status | Average Credit Score | Minimum Score | Maximum Score |
+|---|---:|---:|---:|
+| Approved | 691.20 | 556 | 839 |
+| Rejected | 684.40 | 556 | 822 |
+
+### Business Insight
+
+Approved applications have a slightly higher average credit score than rejected applications, at 691.20 versus 684.40.
+
+The relatively small difference suggests that credit score alone may not fully explain the approval outcome. Other factors may also influence the lending decision.
