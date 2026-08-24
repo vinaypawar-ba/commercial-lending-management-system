@@ -5,9 +5,9 @@
 SELECT
     la.status,
     COUNT(*) AS application_count,
-    ROUND(AVG(cs.credit_score), 2) AS average_credit_score,
-    MIN(cs.credit_score) AS minimum_credit_score,
-    MAX(cs.credit_score) AS maximum_credit_score
+    ROUND(AVG(cs.score), 2) AS average_credit_score,
+    MIN(cs.score) AS minimum_credit_score,
+    MAX(cs.score) AS maximum_credit_score
 FROM loan_applications la
 JOIN credit_scores cs
     ON la.customer_id = cs.customer_id
