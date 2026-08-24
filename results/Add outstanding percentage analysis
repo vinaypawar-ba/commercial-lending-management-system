@@ -1,0 +1,13 @@
+## Outstanding Percentage by Loan Status
+
+| Loan Status | Loan Count | Total Principal | Outstanding Balance | Outstanding % |
+|---|---:|---:|---:|---:|
+| Active | 12 | ₹72,500,000 | ₹47,125,000 | 65% |
+| Overdue | 4 | ₹17,500,000 | ₹7,875,000 | 45% |
+| Closed | 4 | ₹25,000,000 | ₹0 | 0% |
+
+### Business Insight
+
+Active loans have 65% of their principal amount still outstanding. Overdue loans have 45% of their principal outstanding, representing ₹7.875 million of current overdue exposure.
+
+Closed loans have 0% outstanding, indicating that their principal has been fully settled.
