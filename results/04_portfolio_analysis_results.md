@@ -65,3 +65,18 @@ This customer represents a relatively concentrated exposure and may warrant clos
 The two largest individual loans are Commercial Property Loans of ₹12 million each, with ₹7.8 million outstanding on each.
 
 Two ₹8 million Business Expansion Loans are currently overdue, with ₹3.6 million outstanding on each. These loans should receive additional monitoring because they combine relatively high exposure with an overdue status.
+## Portfolio by Loan Status
+
+| Loan Status | Loan Count | Total Principal | Outstanding Balance |
+|---|---:|---:|---:|
+| Active | 12 | ₹72,500,000 | ₹47,125,000 |
+| Overdue | 4 | ₹17,500,000 | ₹7,875,000 |
+| Closed | 4 | ₹25,000,000 | ₹0 |
+
+### Business Insight
+
+Active loans represent the largest portion of the portfolio, with ₹72.5 million in principal and ₹47.125 million outstanding.
+
+The portfolio has 4 overdue loans with ₹7.875 million outstanding. These loans represent the primary immediate repayment-risk exposure in the current portfolio.
+
+Closed loans have no outstanding balance, confirming that their principal exposure has been fully settled.
