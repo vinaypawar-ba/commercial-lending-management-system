@@ -66,3 +66,20 @@ Business Expansion Loan has the highest total outstanding balance at ₹17.6 mil
 The portfolio contains 4 overdue loans with a total principal of ₹17.5 million and ₹7.875 million still outstanding.
 
 These overdue loans represent the key repayment-risk exposure and should be prioritized for collection and monitoring.
+
+
+## Loan Lifecycle Status
+
+| Status | Loan Count |
+|---|---:|
+| Approved | 20 |
+| Disbursed | 20 |
+| Active | 20 |
+| Closed | 4 |
+| Overdue | 4 |
+
+### Business Insight
+
+The analysis shows 20 loans recorded as approved, disbursed, and active. Four loans are closed, while another four are currently overdue.
+
+The overdue population represents an important repayment-risk segment that should be monitored for collection and recovery actions.
