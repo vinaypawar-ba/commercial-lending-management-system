@@ -31,3 +31,16 @@ The average loan size is ₹5.75 million, giving a view of the typical exposure 
 Business Expansion Loan has the highest total disbursed amount at ₹40 million, while Commercial Property Loan has the highest average loan size at ₹12 million.
 
 Equipment Finance has 5 loans with ₹25 million disbursed and ₹16.25 million outstanding, making it an important part of the current portfolio exposure.
+
+
+## Highest Customer Exposure
+
+| Customer ID | Customer | Loan Count | Total Disbursed | Outstanding |
+|---:|---|---:|---:|---:|
+| 64 | GreenField Agro Traders 3 | 2 | ₹10,000,000 | ₹6,500,000 |
+
+### Business Insight
+
+GreenField Agro Traders 3 has the highest customer-level exposure identified by this analysis, with 2 loans totaling ₹10 million in disbursements and ₹6.5 million still outstanding.
+
+This customer represents a relatively concentrated exposure and may warrant closer portfolio monitoring.
