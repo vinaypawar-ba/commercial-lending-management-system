@@ -53,3 +53,16 @@ These loans represent important repayment exposures that should be monitored clo
 Equipment Finance has the highest outstanding percentage at 65%, with ₹16.25 million outstanding from ₹25 million in principal.
 
 Business Expansion Loan has the highest total outstanding balance at ₹17.6 million, making it the largest outstanding exposure by absolute value.
+
+
+## Overdue Loan Exposure
+
+| Status | Loan Count | Total Principal | Outstanding Balance |
+|---|---:|---:|---:|
+| Overdue | 4 | ₹17,500,000 | ₹7,875,000 |
+
+### Business Insight
+
+The portfolio contains 4 overdue loans with a total principal of ₹17.5 million and ₹7.875 million still outstanding.
+
+These overdue loans represent the key repayment-risk exposure and should be prioritized for collection and monitoring.
