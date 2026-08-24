@@ -56,3 +56,22 @@ Applications are evenly distributed across the five loan purposes, with 10 appli
 ### Business Insight
 
 Pending applications have the highest average requested loan amount, while rejected applications have the lowest. Approved applications have a higher average requested amount than rejected applications.
+
+### Applications Submitted Over Time
+
+| Month | Application Count |
+|---|---:|
+| Jan 2025 | 5 |
+| Feb 2025 | 4 |
+| Mar 2025 | 5 |
+| Apr 2025 | 5 |
+| May 2025 | 6 |
+| Jun 2025 | 5 |
+| Jul 2025 | 5 |
+| Aug 2025 | 5 |
+| Sep 2025 | 5 |
+| Oct 2025 | 5 |
+
+### Business Insight
+
+Application volume remained relatively stable throughout 2025, ranging from 4 to 6 applications per month. May recorded the highest volume with 6 applications, while February had the lowest with 4.
