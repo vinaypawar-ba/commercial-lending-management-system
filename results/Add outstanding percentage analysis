@@ -37,3 +37,19 @@ The highest outstanding balances are concentrated in Commercial Property and Bus
 Two Commercial Property Loans have ₹7.8 million outstanding each. Two Business Expansion Loans have ₹5.2 million outstanding each, while two additional Business Expansion Loans are overdue with ₹3.6 million outstanding each.
 
 These loans represent important repayment exposures that should be monitored closely.
+
+## Outstanding Exposure by Loan Product
+
+| Loan Product | Loan Count | Total Principal | Outstanding Balance | Outstanding % |
+|---|---:|---:|---:|---:|
+| Business Expansion Loan | 5 | ₹40,000,000 | ₹17,600,000 | 44.00% |
+| Equipment Finance | 5 | ₹25,000,000 | ₹16,250,000 | 65.00% |
+| Commercial Property Loan | 3 | ₹36,000,000 | ₹15,600,000 | 43.33% |
+| Business Term Loan | 5 | ₹12,500,000 | ₹4,875,000 | 39.00% |
+| Working Capital Loan | 2 | ₹1,500,000 | ₹675,000 | 45.00% |
+
+### Business Insight
+
+Equipment Finance has the highest outstanding percentage at 65%, with ₹16.25 million outstanding from ₹25 million in principal.
+
+Business Expansion Loan has the highest total outstanding balance at ₹17.6 million, making it the largest outstanding exposure by absolute value.
