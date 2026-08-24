@@ -10,7 +10,7 @@ SELECT
     MAX(cs.credit_score) AS maximum_credit_score
 FROM loan_applications la
 JOIN credit_scores cs
-    ON la.application_id = cs.application_id
+    ON la.customer_id = cs.customer_id
 GROUP BY la.status
 ORDER BY la.status;
 
