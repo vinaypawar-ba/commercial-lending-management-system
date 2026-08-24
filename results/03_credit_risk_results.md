@@ -27,3 +27,20 @@ The rejected group has an average score of 684.40, which is relatively close to 
 Approved applications represent the largest share of requested loan value at ₹173.25 million. Pending applications account for ₹63.75 million, while rejected applications account for ₹45.5 million.
 
 The rejected applications have a lower maximum requested amount than the approved and pending groups, which may be useful when reviewing the relationship between requested exposure and credit decisions.
+
+
+## Approval Performance by Loan Product
+
+| Loan Product | Applications | Approved | Pending | Rejected | Approval Rate |
+|---|---:|---:|---:|---:|---:|
+| Business Term Loan | 10 | 8 | 0 | 2 | 80% |
+| Business Expansion Loan | 10 | 7 | 0 | 3 | 70% |
+| Equipment Finance | 10 | 7 | 0 | 3 | 70% |
+| Commercial Property Loan | 10 | 5 | 5 | 0 | 50% |
+| Working Capital Loan | 10 | 3 | 5 | 2 | 30% |
+
+### Business Insight
+
+Business Term Loan has the highest approval rate at 80%, followed by Business Expansion Loan and Equipment Finance at 70%.
+
+Working Capital Loan has the lowest approval rate at 30% and the highest number of pending applications. This could indicate a need to investigate additional documentation, eligibility rules, or credit assessment criteria for this product.
