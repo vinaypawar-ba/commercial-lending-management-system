@@ -44,3 +44,24 @@ Equipment Finance has 5 loans with ₹25 million disbursed and ₹16.25 million 
 GreenField Agro Traders 3 has the highest customer-level exposure identified by this analysis, with 2 loans totaling ₹10 million in disbursements and ₹6.5 million still outstanding.
 
 This customer represents a relatively concentrated exposure and may warrant closer portfolio monitoring.
+
+## Highest Individual Loan Exposures
+
+| Loan ID | Customer | Loan Product | Principal Amount | Outstanding Balance | Status |
+|---|---|---|---:|---:|---|
+| LN00009 | GreenField Agro Traders 15 | Commercial Property Loan | ₹12,000,000 | ₹7,800,000 | Active |
+| LN00003 | BluePeak Infrastructure 5 | Commercial Property Loan | ₹12,000,000 | ₹7,800,000 | Active |
+| LN00018 | BluePeak Infrastructure 29 | Business Expansion Loan | ₹8,000,000 | ₹5,200,000 | Active |
+| LN00006 | GreenField Agro Traders 9 | Business Expansion Loan | ₹8,000,000 | ₹5,200,000 | Active |
+| LN00012 | Apex Industrial Supplies 19 | Business Expansion Loan | ₹8,000,000 | ₹3,600,000 | Overdue |
+| LN00008 | Sunrise Engineering Works 14 | Business Expansion Loan | ₹8,000,000 | ₹3,600,000 | Overdue |
+| LN00007 | Apex Industrial Supplies 13 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+| LN00011 | Prime Auto Components 18 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+| LN00002 | GreenField Agro Traders 3 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+| LN00014 | BluePeak Infrastructure 23 | Equipment Finance | ₹5,000,000 | ₹3,250,000 | Active |
+
+### Business Insight
+
+The two largest individual loans are Commercial Property Loans of ₹12 million each, with ₹7.8 million outstanding on each.
+
+Two ₹8 million Business Expansion Loans are currently overdue, with ₹3.6 million outstanding on each. These loans should receive additional monitoring because they combine relatively high exposure with an overdue status.
