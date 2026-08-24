@@ -52,16 +52,16 @@ ORDER BY approval_rate DESC;
 
 SELECT
     status,
-    ROUND(AVG(credit_score), 2) AS average_credit_score,
-    MIN(credit_score) AS minimum_credit_score,
-    MAX(credit_score) AS maximum_credit_score
+    ROUND(AVG(score), 2) AS average_credit_score,
+    MIN(score) AS minimum_credit_score,
+    MAX(score) AS maximum_credit_score
 FROM (
     SELECT
         la.status,
-        cs.credit_score
+        cs.score
     FROM loan_applications la
     JOIN credit_scores cs
-        ON la.application_id = cs.application_id
+        ON la.customer_id = cs.customer_id
     WHERE la.status IN ('Approved', 'Rejected')
 ) credit_analysis
 GROUP BY status
