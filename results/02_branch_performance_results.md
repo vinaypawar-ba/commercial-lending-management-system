@@ -58,3 +58,22 @@ Mumbai and Hyderabad SME branches have no disbursed loans in the dataset, indica
 Delhi Business Branch has the highest overdue amount at ₹700,000, followed by Pune Corporate Branch at ₹640,000.
 
 Bhopal has a smaller overdue amount of ₹60,000, while the remaining branches show no overdue amount in this analysis.
+
+## Overdue Exposure Rate by Branch
+
+| Branch | Total Disbursed | Overdue Amount | Overdue Exposure Rate |
+|---|---:|---:|---:|
+| Delhi Business Branch | ₹11,250,000 | ₹700,000 | 6.22% |
+| Pune Corporate Branch | ₹15,500,000 | ₹640,000 | 4.13% |
+| Bhopal Business Branch | ₹16,250,000 | ₹60,000 | 0.37% |
+| Nagpur Commercial Branch | ₹25,000,000 | ₹0 | 0% |
+| Bengaluru Corporate Branch | ₹19,500,000 | ₹0 | 0% |
+| Indore Commercial Branch | ₹27,500,000 | ₹0 | 0% |
+| Mumbai SME Branch | ₹0 | ₹0 | — |
+| Hyderabad SME Branch | ₹0 | ₹0 | — |
+
+### Business Insight
+
+Delhi has the highest overdue exposure rate at 6.22%, followed by Pune at 4.13%. Bhopal has a much lower rate of 0.37%.
+
+Branches with no disbursement were kept separate because a 0% overdue rate would be misleading when there is no loan exposure to evaluate.
