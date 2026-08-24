@@ -38,3 +38,23 @@ Hyderabad and Mumbai recorded 0% approval in the dataset, with five rejected app
 Indore Commercial Branch has the highest total loan amount at ₹27.5 million, followed by Nagpur Commercial Branch at ₹25 million. Nagpur has the highest outstanding balance at ₹16.25 million.
 
 Mumbai and Hyderabad SME branches have no disbursed loans in the dataset, indicating no current loan exposure.
+
+
+## Overdue Exposure by Branch
+
+| Branch | Total Loans | Overdue Amount |
+|---|---:|---:|
+| Delhi Business Branch | 3 | ₹700,000 |
+| Pune Corporate Branch | 3 | ₹640,000 |
+| Bhopal Business Branch | 4 | ₹60,000 |
+| Bengaluru Corporate Branch | 3 | ₹0 |
+| Indore Commercial Branch | 4 | ₹0 |
+| Hyderabad SME Branch | 0 | ₹0 |
+| Mumbai SME Branch | 0 | ₹0 |
+| Nagpur Commercial Branch | 3 | ₹0 |
+
+### Business Insight
+
+Delhi Business Branch has the highest overdue amount at ₹700,000, followed by Pune Corporate Branch at ₹640,000.
+
+Bhopal has a smaller overdue amount of ₹60,000, while the remaining branches show no overdue amount in this analysis.
